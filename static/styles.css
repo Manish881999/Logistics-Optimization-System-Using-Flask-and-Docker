@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input, textarea, button {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#predictResult, #routeResult {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#map {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+}
